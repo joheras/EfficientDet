@@ -285,7 +285,7 @@ def parse_args(args):
     pascal_parser.add_argument('pascal_path', help='Path to dataset directory (ie. /tmp/VOCdevkit).')
 
     pascalCustom_parser = subparsers.add_parser('pascalCustom')
-    pascalCustom_parser.add_argument('pascalCustom_path', help='Path to dataset directory (ie. /tmp/VOCdevkit).')
+    pascalCustom_parser.add_argument('pascal_path', help='Path to dataset directory (ie. /tmp/VOCdevkit).')
 
     csv_parser = subparsers.add_parser('csv')
     csv_parser.add_argument('annotations_path', help='Path to CSV file containing annotations for training.')
