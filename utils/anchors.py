@@ -1,9 +1,7 @@
 import numpy as np
 # import keras
 from tensorflow import keras
-import sys
-sys.path.append("../")
-from ..utils.compute_overlap import compute_overlap
+from utils.compute_overlap import compute_overlap
 
 
 class AnchorParameters:
